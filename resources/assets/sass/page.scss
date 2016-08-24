@@ -28,9 +28,9 @@ body {
 	color: $font-color-light;
 	
 	// Preloader
-	@import "resources/assets/sass/page-menu.scss";
-	// menu
 	@import "resources/assets/sass/preloader.scss";
+	// menu
+	@import "resources/assets/sass/page-menu.scss";
 
 	// MAIN-CONTENT 
 	.main-container{
