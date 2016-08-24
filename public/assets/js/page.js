@@ -11,6 +11,7 @@
       $('#toggle i').removeClass('isDown');
       $('#toggle i').removeClass('fa-chevron-up');
       $('#toggle i').addClass('fa-chevron-down');
+      return false;
     } else {
       $('.main-container').animate({
         'margin-top': '80px'
@@ -21,15 +22,12 @@
       $('#toggle i').addClass('isDown');
       $('#toggle i').removeClass('fa-chevron-down');
       $('#toggle i').addClass('fa-chevron-up');
+      return false;
     }
-    return false;
   });
 
   $('body footer.footer div.black-glass .social li a').click(function(event) {
-    return event.preventDefault();
-  });
-
-  $('body footer.footer div.black-glass .social li a').click(function(event) {
+    event.preventDefault();
     return alert("hola");
   });
 

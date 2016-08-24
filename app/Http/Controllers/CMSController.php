@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sivae\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
+use sivae\Http\Requests;
 
 class CMSController extends Controller
 {

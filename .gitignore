@@ -1,8 +1,6 @@
-/bootstrap/compiled.php
-.env.*.php
-.env.php
+/vendor
+/node_modules
+/public/storage
 .env
-node_modules/
-vendor/
-test/
 npm-debug.log
+/public/assets

@@ -13,5 +13,3 @@
 
 Route::get('/','DefaultController@index');
 Route::get('/office','CMSController@index');
-Route::get('/office/order-history','CMSController@order');
-Route::get('/office/date','CMSController@date');

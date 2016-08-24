@@ -1,5 +1,4 @@
 var elixir = require('laravel-elixir');
-
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -20,7 +19,10 @@ elixir(function(mix) {
 	var componentsPath = 'node_modules/';
     mix.sass([
         "page.scss"
-    ], "public/assets/css")
+    ], "public/assets/css/page.css")
+    .sass([
+        "app.scss"
+    ], "public/assets/css/app.css")
     .copy([
         componentsPath + 'html5shiv/dist/html5shiv.min.js',
         componentsPath + 'respond/dest/respond.min.js',
@@ -36,9 +38,5 @@ elixir(function(mix) {
         ], 'public/assets/js/app.js' )
     .coffee([
         'page.coffee'
-        ], 'public/assets/js/page.js' )
-    .styles([
-        "toolkit-inverse.css",
-        "application.css"
-    ], 'public/assets/css/cms.css');
+        ], 'public/assets/js/page.js' );
 });

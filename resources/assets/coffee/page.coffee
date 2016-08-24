@@ -7,16 +7,16 @@ $('#toggle').click (event) ->
     $('#toggle i').removeClass 'isDown'
     $('#toggle i').removeClass 'fa-chevron-up'
     $('#toggle i').addClass 'fa-chevron-down'
+    false
   else
     $('.main-container').animate { 'margin-top': '80px' }, 'fast'
     $('.navbar-fixed-top').animate { 'margin-top': '0px' }, 'fast'
     $('#toggle i').addClass 'isDown'
     $('#toggle i').removeClass 'fa-chevron-down'
     $('#toggle i').addClass 'fa-chevron-up'
-  false
+    false
 
 # Social Footer
 $('body footer.footer div.black-glass .social li a').click (event) ->
   event.preventDefault()
-$('body footer.footer div.black-glass .social li a').click (event) ->
   alert("hola")

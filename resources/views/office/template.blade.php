@@ -9,7 +9,6 @@
     <link rel="icon" href="favicon.ico"/>
     <meta name="csrf" content="{{ csrf_token() }}" />
     <title>APP</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/preloader.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
     @yield('header')
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,6 +20,8 @@
   <body class="noselect">
     @include('preloader')
     @yield('content')
+    <script src="{{ asset('/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
     @yield('scripts')
   </body>
 </html>

@@ -8,7 +8,7 @@
     <meta name="author" content=""/>
     <link rel="icon" href="favicon.ico"/>
     <title>PAGE</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/page.css') }}" />
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/preloader.css') }}" /> --}}
     @yield('header')
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

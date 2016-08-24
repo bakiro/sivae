@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace sivae\Events;
 
 abstract class Event
 {
