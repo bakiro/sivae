@@ -1,0 +1,25 @@
+{
+  "name": "base",
+  "description": "Base for laravel proyects",
+  "main": "N/A",
+  "authors": [
+    "Gerardo Cignarella"
+  ],
+  "license": "MIT",
+  "homepage": "sistemacignarella.cu.cc",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "font-awesome": "Font-Awesome#^4.6.3",
+    "roboto-fontface": "^0.5.0"
+  }
+}

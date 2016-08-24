@@ -1,0 +1,49 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+$font_family: arial, sans-serif;
+
+$resalt_color: #1D3342;
+$resalt_font_color: #F1F1F1; /* Color Negro */
+
+$background_light: #F1F1F1;
+$font-color-light: #333333;
+$background_dark: #333333; /* Color Blanco */
+$font-color-dark: #F1F1F1;
+
+// Comenzamos los estilos en SASS
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	//width: $ancho_pagina;
+	vertical-align: top;
+	font-family: $font_family;
+	font-size: 1em;
+	margin: auto;
+	background-color: $background_light;
+	color: $font-color-light;
+	
+	// Preloader
+	@import "resources/assets/sass/page-menu.scss";
+	// menu
+	@import "resources/assets/sass/preloader.scss";
+
+	// MAIN-CONTENT 
+	.main-container{
+		min-height: 70vh;
+		margin-top:55px
+	}
+	
+	// NEWS CONTENT
+	@import "resources/assets/sass/news.scss";
+
+	// Botton prefoot
+	@import "resources/assets/sass/btn-full-width.scss";
+
+	// Page Footer
+	@import "resources/assets/sass/page-footer.scss";
+}
