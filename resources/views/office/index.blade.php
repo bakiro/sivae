@@ -1,19 +1,32 @@
 @extends('office.template')
 
-@section('header')
-    <link href="/assets/css/cms.css" rel="stylesheet">
+@section('head')
+    {{-- MetisMenu CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/metisMenu.min.css') }}">
+	{{-- Morris Charts CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/morris.css') }}" />
+    {{-- Timeline CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/timeline.css') }}">
 @endsection
 
 @section('content')
-  {{-- MENU --}}
-  @include('office.office-menu')
-
-  @endsection
+    <div id="wrapper">
+    {{-- MENU --}}
+    @include('office.office-menu')
+    {{-- Content --}}
+    @include('office.test')
+    </div>
+@endsection
 
 @section('scripts')
-    <script src="{{ asset('/assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('/assets/js/chart.js') }}"></script>
-    <script src="{{ asset('/assets/js/tablesorter.min.js') }}"></script>
-    <script src="{{ asset('/assets/js/toolkit.js') }}"></script>
-    <script src="{{ asset('/assets/js/application.js') }}"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="{{ asset('/assets/js/metisMenu.min.js') }}"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="{{ asset('/assets/js/raphael.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/morris.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/morris-data.js') }}"></script>
+
+    <!-- Custom CMS JavaScript -->
+    <script src="{{ asset('/assets/js/app.js') }}"></script>
 @endsection
