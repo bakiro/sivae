@@ -12,8 +12,10 @@
     @yield('head')
     {{-- APP CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
-    {{-- Theme CSS --}}
+    {{-- THEME CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/sb-admin-2.css') }}">
+    {{-- ANIMATE CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/animate.min.css') }}" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +25,7 @@
     <![endif]-->
   </head>
   <body class="noselect">
-    @include('preloader')
+    @include('plug-ins.preloader')
     @yield('content')
      {{-- jQuery --}}
     <script src="{{ asset('/assets/js/jquery.min.js') }}"></script>

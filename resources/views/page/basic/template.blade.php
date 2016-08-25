@@ -8,8 +8,10 @@
     <meta name="author" content=""/>
     <link rel="icon" href="favicon.ico"/>
     <title>PAGE</title>
+    {{-- PAGE CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/page.css') }}" />
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/preloader.css') }}" /> --}}
+    {{-- ANIMATE CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/animate.min.css') }}" />
     @yield('header')
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -19,12 +21,12 @@
 </head>
 <body class="noselect body-fix">
     {{-- Preloader --}}
-    @include('preloader')
+    @include('plug-ins.preloader')
     {{-- GO TOP BOTTON --}}
     <span class="ir-arriba icon-arrow"></span>
     {{-- PAGE CONTENT --}}
     @yield('content')
-    @include('page.footer')
+    @include('page.basic.footer')
     <script src="{{ asset('/assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
     @yield('scripts')

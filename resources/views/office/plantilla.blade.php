@@ -1,4 +1,4 @@
-@extends('office.template')
+@extends('office.basic.template')
 
 @section('header')
     <link href="/assets/css/cms.css" rel="stylesheet">

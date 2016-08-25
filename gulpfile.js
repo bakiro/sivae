@@ -63,7 +63,8 @@ elixir(function(mix) {
     //copy assets css
     .copy([ 
         componentsPath + 'metismenu/dist/metisMenu.min.css',
-        componentsPath + 'morris.js/morris.css'
+        componentsPath + 'morris.js/morris.css',
+        componentsPath + 'animate.css/animate.min.css'
         ], 'public/assets/css')
 
     // copy bootstrap fonts

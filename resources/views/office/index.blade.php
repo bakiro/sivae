@@ -1,4 +1,4 @@
-@extends('office.template')
+@extends('office.basic.template')
 
 @section('head')
     {{-- MetisMenu CSS --}}
@@ -11,11 +11,36 @@
 
 @section('content')
     <div id="wrapper">
-    {{-- MENU --}}
-    @include('office.office-menu')
-    {{-- Content --}}
-    @include('office.test')
-    </div>
+        {{-- MENU --}}
+        @include('office.basic.menu')
+        {{-- Content --}}
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            {{-- Aqui boxResumen --}}
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-8">
+                    {{-- aqui area chart--}}
+                    {{-- barchart --}}
+
+                </div>
+                <!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    {{-- aqui notification panel --}}
+                    {{-- Donut chart --}}
+                    {{-- Chat Panel --}}
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->    </div>
 @endsection
 
 @section('scripts')

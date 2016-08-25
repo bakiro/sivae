@@ -1,7 +1,7 @@
-	<a href="#" class="btn btn-block btn-full-width">
+	<a href="#" class="btn btn-block btn-full-width animated bounceInUp">
 		Botom Pre Footer
 	</a>
-	<footer class="footer">
+	<footer class="footer animated bounceInUp">
         <div class="black-glass">
             <div class="container text-center">
                 <div class="row">

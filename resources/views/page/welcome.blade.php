@@ -1,7 +1,7 @@
-@extends('page.template')
+@extends('page.basic.template')
 @section('content')
 	{{-- MENU --}}
-	@include('page.menu')
+	@include('page.basic.menu')
 	{{-- Contend --}}
 	<div class="container-fluid main-container">
 		<section id="welcome">

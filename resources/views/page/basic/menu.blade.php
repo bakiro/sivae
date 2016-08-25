@@ -22,7 +22,7 @@
                     <strong>Nombre</strong>
                     <span class="glyphicon glyphicon-chevron-down"></span>
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul class="animated bounceIn dropdown-menu">
                         <li>
                             <div class="navbar-login">
                                 <div class="row">
@@ -108,8 +108,8 @@
             </ul>
         </div>
         <!-- /.navbar-collapse -->
-        <div id='toggle' class='toogle-menu' onclick="menuBar();">
-            <p>
+        <div id='toggle' class='toogle-menu'">
+            <p class="animated fadeInDown">
                 <i class='fa fa-chevron-up fa-2x isDown'></i>
             </p>
         </div>

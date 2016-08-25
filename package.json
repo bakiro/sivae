@@ -2,7 +2,6 @@
   "name": "sivae",
   "version": "1.0.0",
   "description": "Sistema Venezolano de Administración Educativa",
-  "main": "gulpfile.js",
   "directories": {
     "test": "tests"
   },
@@ -17,9 +16,11 @@
     "bootstrap-sass": "^3.0.0"
   },
   "dependencies": {
+    "animate.css": "daneden/animate.css",
     "font-awesome": "Font-Awesome#^4.6.3",
     "html5shiv": "^3.7.3",
     "jquery": "^3.1.0",
+    "jquery.countdown": "^1.2.5",
     "metismenu": "^2.5.2",
     "morris.js": "morrisjs/morris.js",
     "raphael": "dmitrybaranovskiy/raphael",
