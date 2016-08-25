@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "bootstrap-sass": "^3.0.0"
+  },
+  "dependencies": {
+    "metismenu": "^2.5.2",
+    "morris.js": "morrisjs/morris.js",
+    "raphael": "dmitrybaranovskiy/raphael",
+    "timeago": "rmm5t/jquery-timeago",
+    "jquery": "^3.1.0",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "font-awesome": "Font-Awesome#^4.6.3",
+    "roboto-fontface": "^0.5.0"
+  }
+}
