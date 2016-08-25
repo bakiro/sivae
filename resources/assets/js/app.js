@@ -31,4 +31,29 @@ $(function() {
     if (element.is('li')) {
         element.addClass('active');
     }
+    $('ul.nav a').click(function(event) {
+        event.preventDefault();
+    });
+});
+
+// Time ago
+jQuery.timeago.settings.strings = {
+   prefixAgo: "hace",
+   prefixFromNow: "dentro de",
+   suffixAgo: "",
+   suffixFromNow: "",
+   seconds: "menos de un minuto",
+   minute: "un minuto",
+   minutes: " %d minutos",
+   hour: "una hora",
+   hours: "%d horas",
+   day: "un día",
+   days: "%d días",
+   month: "un mes",
+   months: "%d meses",
+   year: "un año",
+   years: "%d años"
+};
+jQuery(document).ready(function() {
+    $("time.timeago").timeago();
 });

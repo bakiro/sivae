@@ -8,7 +8,7 @@
     <meta name="author" content=""/>
     <link rel="icon" href="favicon.ico"/>
     <meta name="csrf" content="{{ csrf_token() }}" />
-    <title>APP</title>
+    <title>SIVAE</title>
     @yield('head')
     {{-- APP CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />

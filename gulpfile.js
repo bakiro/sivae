@@ -56,6 +56,7 @@ elixir(function(mix) {
         componentsPath + 'metismenu/dist/metisMenu.min.js',
         componentsPath + 'raphael/raphael.min.js',
         componentsPath + 'morris.js/morris.min.js',
+        componentsPath + 'timeago/jquery.timeago.js',
         componentsPath + 'bootstrap-sass/assets/javascripts/bootstrap.min.js'
         ], 'public/assets/js')
 

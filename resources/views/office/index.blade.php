@@ -22,6 +22,9 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="{{ asset('/assets/js/metisMenu.min.js') }}"></script>
 
+    <!-- Time Ago Plugin JavaScript -->
+    <script src="{{ asset('/assets/js/jquery.timeago.js') }}"></script>
+
     <!-- Morris Charts JavaScript -->
     <script src="{{ asset('/assets/js/raphael.min.js') }}"></script>
     <script src="{{ asset('/assets/js/morris.min.js') }}"></script>

@@ -244,7 +244,7 @@
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
                                             <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small>
+                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> <time class="timeago" datetime="2016-08-24T22:24:17" title="Augost 24, 2016"></time> via Twitter</small>
                                             </p>
                                         </div>
                                         <div class="timeline-body">
@@ -355,7 +355,10 @@
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
                                     <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
+                                    <span class="pull-right text-muted small">
+                                        <em>
+                                            <time class="timeago" datetime="2016-08-24T22:24:17" title="Augost 24, 2016"></time>
+                                        </em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
@@ -459,13 +462,14 @@
                             <ul class="chat">
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="img/perfil.jpg" widht="50px" height="50px" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
                                             <strong class="primary-font">Jack Sparrow</strong>
                                             <small class="pull-right text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
+                                                <i class="fa fa-clock-o fa-fw"></i> 
+                                                <time class="timeago" datetime="2016-08-24T22:24:17" title="Augost 24, 2016"></time>
                                             </small>
                                         </div>
                                         <p>
@@ -475,7 +479,7 @@
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="img/perfil.jpg" widht="50px" height="50px" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -490,7 +494,7 @@
                                 </li>
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="img/perfil.jpg" widht="50px" height="50px" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -505,7 +509,7 @@
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="img/perfil.jpg" widht="50px" height="50px" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
